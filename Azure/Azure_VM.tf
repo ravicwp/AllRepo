@@ -1,4 +1,4 @@
-resource "azurerm_managed_disk" "example" {
+resource "azurerm_managed_disk" "example1" {
   name                 = var.disk_name
   location             = var.location
   resource_group_name  = var.resource_group_name
