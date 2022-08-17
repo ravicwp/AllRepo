@@ -38,7 +38,7 @@ resource "azurerm_key_vault" "example" {
   purge_protection_enabled    = true
 }
 
-resource "azurerm_key_vault" "example" {
+resource "azurerm_key_vault" "example2" {
   name                        = "des-example-keyvault_ravi1"
   location                    = azurerm_resource_group.example.location
   resource_group_name         = azurerm_resource_group.example.name
