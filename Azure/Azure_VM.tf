@@ -65,7 +65,7 @@ resource "azurerm_key_vault" "ravitesting" {
   tenant_id                   = data.azurerm_client_config.current.tenant_id
   sku_name                    = "premium"
   enabled_for_disk_encryption = false
-  purge_protection_enabled    = false
+  purge_protection_enabled    = false 
 }
 
 resource "azurerm_key_vault_key" "example" {
