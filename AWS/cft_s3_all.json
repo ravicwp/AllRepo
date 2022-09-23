@@ -16,7 +16,7 @@
         "BlockPublicPolicy": false,
         "IgnorePublicAcls": true,
         "RestrictPublicBuckets": false
-      }
+      } 
 }
 }
 }
